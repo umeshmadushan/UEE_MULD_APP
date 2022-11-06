@@ -71,6 +71,18 @@
             android:textAlignment="center"
             android:textSize="16dp" />
 
+        <EditText
+            android:id="@+id/regrepassinput"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/inputbck"
+            android:hint="Re-Enter Password"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="16dp" />
+
         <CheckBox
             android:id="@+id/regcheckBox"
             android:layout_width="match_parent"
@@ -83,6 +95,7 @@
             android:textColor="@color/white" />
 
         <Button
+            android:id="@+id/registerbtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
