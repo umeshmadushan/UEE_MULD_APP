@@ -38,8 +38,10 @@ public class Login extends AppCompatActivity {
                     Boolean chechuserpass = DB.checkemailpassword(email,password);
                     if (chechuserpass==true){
                         Toast.makeText(Login.this, "Sign inSuccessfully", Toast.LENGTH_SHORT).show();
+
                         Intent intent = new Intent(getApplicationContext(),Home.class);
                         startActivity(intent);
+
                     }
                     else {
                         Toast.makeText(Login.this, "Invalid Credentials", Toast.LENGTH_SHORT).show();

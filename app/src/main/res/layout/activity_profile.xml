@@ -7,8 +7,10 @@
     tools:context=".Profile">
 
     <LinearLayout
+        android:id="@+id/toplayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="694dp"
+        android:background="@color/white"
         android:orientation="vertical">
 
         <ImageView
@@ -105,6 +107,7 @@
             android:textSize="16dp" />
 
         <LinearLayout
+            android:id="@+id/nextlayout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -131,5 +134,14 @@
 
 
     </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView2"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_below="@+id/toplayout"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="2dp"
+        app:menu="@menu/bottom_navmenu" />
 
 </RelativeLayout>
