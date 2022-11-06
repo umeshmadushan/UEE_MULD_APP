@@ -10,13 +10,40 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UEEApp">
         <activity
+            android:name=".ChooseProfessional"
+            android:exported="false" />
+        <activity
+            android:name=".FindWorkers"
+            android:exported="false" />
+        <activity
+            android:name=".ViewJob"
+            android:exported="false" />
+        <activity
+            android:name=".Tenders"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SendTenderProposal"
+            android:exported="false" />
+        <activity
+            android:name=".PostTender"
+            android:exported="false" />
+        <activity
+            android:name=".PostJob"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
             android:name=".Login"
             android:exported="false" />
         <activity
             android:name=".register"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Jobs"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

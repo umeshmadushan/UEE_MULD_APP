@@ -16,7 +16,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="170dp"
             android:text="Login Now"
             android:textAlignment="center"
             android:textColor="@color/white"
@@ -43,6 +43,8 @@
             android:layout_marginTop="15dp"
             android:background="@drawable/inputbck"
             android:hint="Enter Password"
+            android:ems="10"
+            android:inputType="textPassword"
             android:padding="10dp"
             android:textAlignment="center"
             android:textSize="16dp" />

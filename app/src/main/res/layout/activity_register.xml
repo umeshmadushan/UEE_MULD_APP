@@ -67,6 +67,8 @@
             android:layout_marginTop="15dp"
             android:background="@drawable/inputbck"
             android:hint="Enter Password"
+            android:ems="10"
+            android:inputType="textPassword"
             android:padding="10dp"
             android:textAlignment="center"
             android:textSize="16dp" />
