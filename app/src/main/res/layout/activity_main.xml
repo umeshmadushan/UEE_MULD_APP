@@ -143,11 +143,12 @@
         </LinearLayout>
 
         <TextView
+            android:id="@+id/edLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="You Have an Account.. ? Login Now"
             android:textAlignment="center"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black" />
 
 
     </LinearLayout>
